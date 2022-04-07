@@ -134,8 +134,9 @@ if f == "3" or f == "03":
 			print(f"{r}[{y}*{r}] {w}Install [{r}Fall{w}]")
 			sys.exit()
 		run = input(f"{r}[{y}${r}]{y}» Run? {w}[{y}Y/N{w}] {r}: {w}")
+                url = input(f"{r}[{y}${r}]{y}» URL {r}: {w}")
 		if run == "y":
-			os.system("python WebSCP.py")
+			os.system(f"cd WebSCP && python run.py {u}")
 			os.system("bash 3.sh")
 			os.system("python main.py")
 		else:
