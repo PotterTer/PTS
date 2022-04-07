@@ -1,0 +1,1 @@
+cd && rm -rf IP && cd PTS

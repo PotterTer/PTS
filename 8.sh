@@ -1,0 +1,1 @@
+cd && rm -rf SUPER && cd PTS
